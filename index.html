@@ -21,7 +21,7 @@
     .section-title{letter-spacing:.06em;color:var(--pink);}
     .card{background:var(--navy-2);border-color:var(--navy-3);transition:.25s ease;}
     .card .card-title,.card .card-text{color:var(--pink);}
-    .card img{object-fit:cover;background:var(--navy);}
+    .card img{object-fit:cover;background:var(--navy); cursor:pointer;}
     .card:hover{box-shadow:0 0 20px var(--pink-strong),0 10px 30px rgba(0,0,0,.5);transform:translateY(-3px);}
     .card-title{transition:text-shadow .2s ease,color .2s ease;}
     .card-title:hover,.card-title:focus-visible{
@@ -96,7 +96,7 @@
           <div class="card-body">
             <h5 class="card-title mb-1">Digital_Corruption.exe</h5>
             <p class="card-text">Generative glitches + pixel sorting. Click to view logo.</p>
-            <a class="stretched-link" data-bs-toggle="modal" data-bs-target="#logoModal"></a>
+            <a href="#" class="stretched-link" data-bs-toggle="modal" data-bs-target="#logoModal"></a>
           </div>
         </div>
       </div>
@@ -108,31 +108,31 @@
           <div class="card-body">
             <h5 class="card-title mb-1">Browser Experiments</h5>
             <p class="card-text">Interactive sketches that treat the browser as a studio. Click to view meme.</p>
-            <a class="stretched-link" data-bs-toggle="modal" data-bs-target="#memeModal"></a>
+            <a href="#" class="stretched-link" data-bs-toggle="modal" data-bs-target="#memeModal"></a>
           </div>
         </div>
       </div>
 
-      <!-- Badge -> Desk Modal (root path fix) -->
+      <!-- Badge -> Desk Modal (root) -->
       <div class="col-12 col-md-6 col-lg-4">
         <div class="card position-relative h-100">
-          <img src="badge.jpeg" class="card-img-top" alt="Badge" data-bs-toggle="modal" data-bs-target="#deskModal">
+          <img src="./badge.jpeg" class="card-img-top" alt="Badge" data-bs-toggle="modal" data-bs-target="#deskModal">
           <div class="card-body">
             <h5 class="card-title mb-1">Studio Badge</h5>
             <p class="card-text">Click to view my 3D render desk.</p>
-            <a class="stretched-link" data-bs-toggle="modal" data-bs-target="#deskModal"></a>
+            <a href="#" class="stretched-link" data-bs-toggle="modal" data-bs-target="#deskModal"></a>
           </div>
         </div>
       </div>
 
-      <!-- Flowers -> Glitch Modal (root path fix) -->
+      <!-- Flowers -> Glitch Modal (root) -->
       <div class="col-12 col-md-6 col-lg-4">
         <div class="card position-relative h-100">
-          <img src="flowers.jpeg" class="card-img-top" alt="Flowers" data-bs-toggle="modal" data-bs-target="#glitchModal">
+          <img src="./flowers.jpeg" class="card-img-top" alt="Flowers" data-bs-toggle="modal" data-bs-target="#glitchModal">
           <div class="card-body">
             <h5 class="card-title mb-1">Glitch Series</h5>
             <p class="card-text">Click to open the glitch gallery.</p>
-            <a class="stretched-link" data-bs-toggle="modal" data-bs-target="#glitchModal"></a>
+            <a href="#" class="stretched-link" data-bs-toggle="modal" data-bs-target="#glitchModal"></a>
           </div>
         </div>
       </div>
