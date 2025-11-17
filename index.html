@@ -32,6 +32,22 @@
     .btn-close-white{filter:invert(1);}
     .about-photo{max-width:260px;border-radius:1rem;box-shadow:0 10px 30px rgba(0,0,0,.35);border:1px solid var(--navy-3);}
     .muted{opacity:.9;}
+
+    /* Pink carousel arrows */
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      background-color: var(--pink);
+      border-radius: 50%;
+      background-size: 60%;
+      width: 3rem;
+      height: 3rem;
+      opacity: 0.9;
+    }
+    .carousel-control-prev-icon:hover,
+    .carousel-control-next-icon:hover {
+      opacity: 1;
+      box-shadow: 0 0 15px var(--pink-strong);
+    }
   </style>
 </head>
 <body id="top">
@@ -136,7 +152,7 @@
       <!-- Shoe -> Flight Story -->
       <div class="col-12 col-md-6 col-lg-4">
         <div class="card position-relative h-100">
-          <img src="DMA/heels.jpeg" class="card-img-top" alt="Heels" >
+          <img src="DMA/heels.jpeg" class="card-img-top" alt="Heels">
           <div class="card-body">
             <h5 class="card-title mb-1">Flight Story</h5>
             <p class="card-text">An autobiographical narrative about journeys, connection and transformation.</p>
